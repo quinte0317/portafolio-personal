@@ -9,6 +9,12 @@
 
     <title>Portafolio | SANTIAGO QUINTERO OROZCO</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet"
           href="styles.css">
 </head>
@@ -18,11 +24,9 @@
 
     <nav>
 
-        <h2 class="logo">
-
+        <a href="#inicio" class="logo">
             Santiago Quintero Orozco
-
-        </h2>
+        </a>
 
         <ul>
 
@@ -40,7 +44,7 @@
 
     </nav>
 
-</header>
+    </header>
 
     <main>
 
@@ -52,25 +56,28 @@
 
         <div class="hero-texto">
 
-            <h1>Hola, soy</h1>
+            <h1>👋 Hola, soy</h1>
 
             <h2>Santiago Quintero Orozco</h2>
 
-            <h3>Tecnólogo en Desarrollo de Software</h3>
+            <h3>Desarrollador Web Frontend
+                (Tecnólogo en Desarrollo de Software)
+            </h3>
+
+            <p>🟢 Disponible para oportunidades</p>
+
 
             <p>
-                Soy un desarrollador apasionado por crear aplicaciones
-                funcionales, aprender nuevas tecnologías y seguir creciendo
-                profesionalmente en el desarrollo de software.
+                Desarrollador web en formación, apasionado por crear aplicaciones 
+                modernas, funcionales y con una excelente experiencia de usuario. 
+                Actualmente finalizando mis estudios como Tecnólogo en Desarrollo 
+                de Software y ampliando continuamente mis conocimientos en 
+                desarrollo web.
             </p>
 
             <a href="#proyectos" class="boton">
                 Ver mis proyectos
             </a>
-
-            <button id="mensaje-btn">
-                 Haz clic aquí
-            </button>
 
         </div>
 
@@ -91,10 +98,16 @@
 
         <h2>Sobre mí</h2>
 
+        <h3>Mi objetivo profesional</h3>
+
         <p class="introduccion">
-            Soy Tecnólogo en Desarrollo de Software apasionado por el
-            desarrollo web. Me gusta aprender nuevas tecnologías,
-            resolver problemas y crear soluciones útiles para las personas.
+            Me gusta afrontar nuevos retos y aprender tecnologías 
+            que me permitan desarrollar soluciones útiles y bien 
+            estructuradas. Disfruto especialmente del desarrollo web 
+            porque combina la lógica de la programación con 
+            la creatividad del diseño. Mi objetivo es seguir 
+            creciendo como desarrollador y aportar valor a los 
+            proyectos en los que participe.
         </p>
 
         <div class="habilidades-personales">
@@ -127,7 +140,87 @@
          PROYECTOS
     =========================== -->
 
-    <section id="proyectos">
+    <section id="proyectos" class="proyectos">
+
+        <h2>Mis Proyectos</h2>
+
+        <div class="contenedor-proyectos">
+
+            <article class="tarjeta-proyecto">
+
+                <div class="proyecto-imagen">
+
+                    <img src="images/proyecto1.jpg"
+                        alt="Portafolio Personal">
+
+                </div>
+
+                <div class="proyecto-info">
+
+                    <h3>Portafolio Personal</h3>
+
+                    <p>
+                        Sitio web desarrollado con HTML, CSS y JavaScript puro para
+                        presentar mi perfil profesional y mis proyectos.
+                    </p>
+
+                    <p class="tecnologias">
+
+                        HTML • CSS • JavaScript • Git • GitHub
+
+                    </p>
+
+                </div>
+
+                <div class="proyecto-botones">
+
+                    <a href="#" class="boton">
+                        Ver proyecto
+                    </a>
+
+                   <a href="https://github.com/quinte0317/portafolio-personal"
+                        target="_blank"
+                        class="boton boton-secundario">
+                        Ver código
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="tarjeta-proyecto">
+
+                <div class="proyecto-imagen">
+
+                    <img src="images/proyecto2.jpg"
+                        alt="Próximo Proyecto">
+
+                </div>
+
+                <div class="proyecto-info">
+
+                    <h3>Próximo Proyecto</h3>
+
+                    <p>
+                        Actualmente desarrollando nuevos proyectos para seguir
+                        fortaleciendo mis habilidades como desarrollador.
+                    </p>
+
+                    <span>Próximamente...</span>
+
+                </div>
+
+                <div class="proyecto-botones">
+
+                    <a href="#" class="boton">
+                        En desarrollo
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
 
     </section>
 
@@ -135,7 +228,97 @@
          HABILIDADES
     =========================== -->
 
-    <section id="habilidades">
+    <section id="habilidades" class="habilidades">
+
+        <h2>Habilidades</h2>
+
+        <div class="contenedor-habilidades">
+
+            <div class="habilidades-tecnicas">
+
+                <h3>Habilidades Técnicas</h3>
+
+                <div class="habilidad">
+
+                    <span>HTML</span>
+
+                    <div class="barra">
+
+                        <div class="nivel html"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="habilidad">
+
+                    <span>CSS</span>
+
+                    <div class="barra">
+
+                        <div class="nivel css"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="habilidad">
+
+                    <span>JavaScript</span>
+
+                    <div class="barra">
+
+                        <div class="nivel js"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="habilidad">
+
+                    <span>Git</span>
+
+                    <div class="barra">
+
+                        <div class="nivel git"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="habilidad">
+
+                    <span>GitHub</span>
+
+                    <div class="barra">
+
+                        <div class="nivel github"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="habilidades-blandas">
+
+                <h3>Habilidades Personales</h3>
+
+                <ul>
+
+                    <li>✔ Trabajo en equipo</li>
+
+                    <li>✔ Aprendizaje continuo</li>
+
+                    <li>✔ Adaptabilidad</li>
+
+                    <li>✔ Resolución de problemas</li>
+
+                </ul>
+
+            </div>
+
+        </div>
 
     </section>
 
@@ -143,13 +326,70 @@
          CONTACTO
     =========================== -->
 
-    <section id="contacto">
+    <section id="contacto" class="contacto">
+
+        <h2>Contacto</h2>
+
+        <p class="contacto-texto">
+            ¿Te interesa trabajar conmigo o colaborar en un proyecto? Estaré encantado de hablar contigo.
+        </p>
+
+        <div class="contacto-card">
+
+            <p><strong>📧 Correo:</strong> quinte0317@gmail.com</p>
+
+            <p><strong>💻 GitHub:</strong> github.com/quinte0317</p>
+
+            <p><strong>💼 LinkedIn:</strong> linkedin.com/in/quinte0317</p>
+
+            <p><strong>📍 Ubicación:</strong> España/Barcelona</p>
+
+            <a href="mailto:quinte0317@gmail.com" class="boton">
+                Enviar correo
+            </a>
+
+        </div>
 
     </section>
 
-</main>
+    </main>
 
-    <footer>
+    <footer class="footer">
+
+        <div class="footer-contenido">
+
+            <h3>Santiago Quintero Orozco</h3>
+
+            <p>
+                Tecnólogo en Desarrollo de Software
+            </p>
+
+            <div class="footer-redes">
+
+                <a href="https://github.com/quinte0317"
+                target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://linkedin.com/in/quinte0317"
+                target="_blank">
+                    LinkedIn
+                </a>
+
+                <a href="mailto:quinte0317@gmail.com">
+                    Correo
+                </a>
+
+            </div>
+
+            <p class="copyright">
+
+                © 2026 Santiago Quintero Orozco.
+                Todos los derechos reservados.
+
+            </p>
+
+        </div>
 
     </footer>
     <script src="script.js"></script>
